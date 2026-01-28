@@ -2,7 +2,7 @@ Transform this image into a mixed-media collage using the following steps:
 
 1. Subject Isolation: Identify and isolate the main foreground subject. Preserve the subject's original photorealistic quality completely without any alteration to its texture or colors.
 2. Cutout Effect: Apply a thick, rough white border around the entire edge of the isolated subject, making it look like a paper cutout or sticker.
-3. Background Replacement: Replace the entire original background with a texture of beige, crumpled, old paper.
-4. Scribble Overlays: Fill the new paper background with chaotic, hand-drawn doodles. These should include random stars, spirals, squiggles, arrows, and smiley faces rendered in vibrant primary colors (red, blue, yellow, green) resembling crayon or felt-tip marker art.
+3. Variable Transparent Paper Overlay: Overlay the entire original background with a texture of beige, crumpled, old paper. This paper layer must be set to 20% opacity.
+4. Scribble Overlays: Fill the semi-transparent paper layer with chaotic, hand-drawn doodles. These should include random stars, spirals, squiggles, arrows, and smiley faces rendered in vibrant primary colors (red, blue, yellow, green) resembling crayon or felt-tip marker art. The scribbles should appear to be drawn on the paper layer, with the original background visible behind them according to the set opacity.
 
 Return the processed image.
