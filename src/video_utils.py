@@ -1,6 +1,14 @@
 import cv2
 import os
 
+# Suppress annoying OpenCV/FFMPEG logs
+os.environ["OPENCV_LOG_LEVEL"] = "OFF"
+try:
+    if hasattr(cv2, 'setLogLevel'):
+        cv2.setLogLevel(0)  # 0 = Silent
+except Exception:
+    pass
+
 def read_video_frames(video_path, target_fps=None):
     """
     Reads a video and yields frames.
