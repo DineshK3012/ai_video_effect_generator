@@ -1,0 +1,27 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment Variables
+.env
+
+# Media Files (Don't push purely user content or large generated files)
+*.mp4
+*.avi
+*.mov
+*.mkv
+input_video.mp4
+output_video.mp4
+output_collage_video.mp4
+
+# Project Specific
+tmp/
+.vscode/
+.idea/
+*.log
+
+# Streamlit
+.streamlit/
